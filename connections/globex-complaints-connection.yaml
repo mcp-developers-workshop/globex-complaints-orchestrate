@@ -1,0 +1,10 @@
+spec_version: v1
+kind: connection
+app_id: globex-complaints-connection
+environments:
+  draft:
+    security_scheme: oauth2
+    auth_type: oauth2_client_creds
+    type: team
+    server_url: https://sso.<OPENSHIFT_SUBDOMAIN>/realms/internal
+    token_url: https://sso.<OPENSHIFT_SUBDOMAIN>/realms/internal/protocol/openid-connect/token

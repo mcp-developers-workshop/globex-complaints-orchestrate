@@ -1,0 +1,15 @@
+# The client ID and secret are passed as flags to `orchestrate connections
+# set-credentials` and held by Orchestrate. No file in this repository carries them.
+
+# Orchestrate ADK local state and environment
+.orchestrate/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp

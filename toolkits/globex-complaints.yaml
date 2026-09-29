@@ -1,0 +1,10 @@
+spec_version: v1
+kind: mcp
+name: globex-complaints
+description: This MCP server helps in getting details about complaints that were raised and also provide a nice summary for product improvement perspective.
+transport: streamable_http
+url: https://globex-complaints.<OPENSHIFT_SUBDOMAIN>/read/mcp
+app_id:
+  - globex-complaints-connection
+tools:
+  - "*"
